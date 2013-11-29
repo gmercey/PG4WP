@@ -1,0 +1,45 @@
+[1385722795.68] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385723223.65] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385723479.34] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385723711.14] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385727914.45] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385727956.22] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385727981.9] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385728061.65] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385728082.2] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------

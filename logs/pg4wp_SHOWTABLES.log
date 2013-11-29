@@ -1,0 +1,50 @@
+[1385722782.38] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------
+[1385722790.63] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------
+[1385723216.01] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------
+[1385723470.38] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------
+[1385723703.15] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------
+[1385727909.86] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------
+[1385727950.36] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------
+[1385727978.47] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------
+[1385728057.85] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------
+[1385728077.27] Converting :
+SHOW TABLES LIKE 'cm_users'
+---- to ----
+SELECT tablename FROM pg_tables WHERE schemaname = 'public';
+---------------------

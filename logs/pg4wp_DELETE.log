@@ -1,0 +1,45 @@
+[1385722795.43] Converting :
+DELETE FROM cm_options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'
+---- to ----
+DELETE FROM cm_options WHERE option_name ~ '^rss_[0-9a-f]{32}(_ts)?$'
+---------------------
+[1385723223.43] Converting :
+DELETE FROM cm_options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'
+---- to ----
+DELETE FROM cm_options WHERE option_name ~ '^rss_[0-9a-f]{32}(_ts)?$'
+---------------------
+[1385723479.08] Converting :
+DELETE FROM cm_options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'
+---- to ----
+DELETE FROM cm_options WHERE option_name ~ '^rss_[0-9a-f]{32}(_ts)?$'
+---------------------
+[1385723710.9] Converting :
+DELETE FROM cm_options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'
+---- to ----
+DELETE FROM cm_options WHERE option_name ~ '^rss_[0-9a-f]{32}(_ts)?$'
+---------------------
+[1385727914.22] Converting :
+DELETE FROM cm_options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'
+---- to ----
+DELETE FROM cm_options WHERE option_name ~ '^rss_[0-9a-f]{32}(_ts)?$'
+---------------------
+[1385727955.97] Converting :
+DELETE FROM cm_options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'
+---- to ----
+DELETE FROM cm_options WHERE option_name ~ '^rss_[0-9a-f]{32}(_ts)?$'
+---------------------
+[1385727981.65] Converting :
+DELETE FROM cm_options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'
+---- to ----
+DELETE FROM cm_options WHERE option_name ~ '^rss_[0-9a-f]{32}(_ts)?$'
+---------------------
+[1385728061.41] Converting :
+DELETE FROM cm_options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'
+---- to ----
+DELETE FROM cm_options WHERE option_name ~ '^rss_[0-9a-f]{32}(_ts)?$'
+---------------------
+[1385728081.96] Converting :
+DELETE FROM cm_options WHERE option_name REGEXP '^rss_[0-9a-f]{32}(_ts)?$'
+---- to ----
+DELETE FROM cm_options WHERE option_name ~ '^rss_[0-9a-f]{32}(_ts)?$'
+---------------------
