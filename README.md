@@ -25,4 +25,4 @@ This is because the database needs to be up and running before any plugin can be
 1.	Point your Web Browser to your WordPress installation and go through the traditional WordPress installation routine.
 
 ## Config
-If you want to install wp on a different schema than '`public`, change the value of `PG4WP_SCHEMA` in your `db.php`
+If you want to install wp on a different schema than `public`, change the value of `PG4WP_SCHEMA` in your `db.php`
