@@ -6,7 +6,7 @@ PostgreSQL for WordPress (PG4WP) gives you the possibility to install and use Wo
 Fork from initial WordPress plugin PG4WP develop by Hawk__ (http://www.hawkix.net/)
 http://wordpress.org/plugins/postgresql-for-wordpress/
 
-== Installation ==
+## Installation
 
 You have to install PG4WP *before* configuring your WordPress installation for things to work properly. 
 This is because the database needs to be up and running before any plugin can be loaded.
@@ -24,5 +24,5 @@ This is because the database needs to be up and running before any plugin can be
 
 1.	Point your Web Browser to your WordPress installation and go through the traditional WordPress installation routine.
 
-= Config =
+## Config
 If you want to install wp on a different schema than 'public', change the value of PG4WP_SCHEMA in your db.php  
