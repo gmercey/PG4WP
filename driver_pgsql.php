@@ -181,8 +181,8 @@
 		}
 		else
 		{
-			$sql = "SELECT CURRVAL('$seq')";
-			
+			$sql = "SELECT last_value FROM $seq";
+
 			$res = pg_query($sql);
 			if( false !== $res) {
 				$data = pg_fetch_result($res, 0, 0);
@@ -219,13 +219,16 @@
 		{
 			$logto = 'SELECT';
 
-			preg_match('/FROM [`]?(\w+){1}[`]?/', $sql, $matches);
-			$table = $matches[1];
-
-			if (FALSE === strstr('.', $table)){
-				$sql = str_replace($table, PG4WP_SCHEMA.'.'.$table, $sql);
-				$table = PG4WP_SCHEMA.'.'.$table;
+			preg_match('/FROM\s+([^ ,]+)(?:\s*,\s*([^ ,]+))*\s+/', $sql, $matches);
+			unset($matches[0]);
+			foreach ($matches as $table) {
+				if (FALSE === strstr('.', $table)){
+					$sql = str_replace($table, PG4WP_SCHEMA.'.'.$table, $sql);
+					$table = PG4WP_SCHEMA.'.'.$table;
+				}
 			}
+
+			
 			
 			// SQL_CALC_FOUND_ROWS doesn't exist in PostgreSQL but it's needed for correct paging
 			if( false !== strpos($sql, 'SQL_CALC_FOUND_ROWS'))
@@ -280,6 +283,20 @@
 				'MONTH('		=> 'EXTRACT(MONTH FROM ',
 				'DAY('			=> 'EXTRACT(DAY FROM ',
 			);
+
+			// MySQL ORDER BY FIELD conversion
+			if (strstr($sql, 'ORDER BY FIELD') !== FALSE)
+            {
+                preg_match_all('/ORDER BY FIELD\(\s([a-zA-Z\.\_]+[^,\s]),\s([0-9,]+)\s\)/', $sql, $params);
+                $values = preg_split('/\,/', $params[2][0]);
+                $order = 'ORDER BY CASE ';
+                foreach ($values as $i => $value)
+                {
+                    $order .= ' WHEN ' . $params[1][0] . '=' . $value . ' THEN ' . ($i + 1);
+                }
+                $order .= ' END';
+                $sql = str_replace($params[0][0], $order, $sql);
+            }
 			
 			$sql = str_replace( 'ORDER BY post_date DESC', 'ORDER BY YEAR(post_date) DESC, MONTH(post_date) DESC', $sql);
 			$sql = str_replace( 'ORDER BY post_date ASC', 'ORDER BY YEAR(post_date) ASC, MONTH(post_date) ASC', $sql);
@@ -398,8 +415,9 @@
 			$end = ' VALUES'.$end;
 			
 			// When installing, the sequence for table terms has to be updated
-			if( defined('WP_INSTALLING') && WP_INSTALLING && false !== strpos($sql, 'INSERT INTO `'.$wpdb->terms.'`'))
-				$end .= ';SELECT setval(\''.$wpdb->terms.'_seq\', (SELECT MAX(term_id) FROM '.$wpdb->terms.')+1);';
+			if( defined('WP_INSTALLING') && WP_INSTALLING && false !== strpos($sql, 'INSERT INTO `'.PG4WP_SCHEMA.'.'.$wpdb->terms.'`')) {
+				$end .= ';SELECT setval(\''.PG4WP_SCHEMA.'.'.$wpdb->terms.'_seq\', (SELECT MAX(term_id) FROM '.PG4WP_SCHEMA.'.'.$wpdb->terms.')+1);';
+			}
 			
 		} // DELETE
 		elseif( 0 === strpos( $sql, 'DELETE' ))
@@ -510,11 +528,14 @@
 		$sql = str_replace( 'IN ( \'\' )', 'IN (NULL)', $sql);
 		$sql = str_replace( 'IN ()', 'IN (NULL)', $sql);
 
-		// Add schema to JOIN query
-		if (false !== strstr($sql, 'JOIN')){
-			preg_match_all('/JOIN\s(\w+){1}/', $sql, $matches);
-			foreach ($matches[1] as $join_table) {
-				$sql = str_replace($join_table, PG4WP_SCHEMA.'.'.$join_table, $sql);
+		if( in_array($logto, array('SELECT', 'UPDATE')) )
+		{
+			// Add schema to JOIN query
+			if (false !== strstr($sql, 'JOIN')){
+				preg_match_all('/JOIN\s(\w+){1}/', $sql, $matches);
+				foreach ($matches[1] as $join_table) {
+					$sql = str_replace($join_table, PG4WP_SCHEMA.'.'.$join_table, $sql);
+				}
 			}
 		}
 		
