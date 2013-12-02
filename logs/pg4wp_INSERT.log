@@ -1,0 +1,326 @@
+[1385982186.99] Converting :
+INSERT INTO cm_options (option_name, option_value, autoload) VALUES ('siteurl', 'http://blog.dev.cinemur.fr', 'yes'), ('blogname', 'Mon site', 'yes'), ('blogdescription', 'Un site utilisant WordPress', 'yes'), ('users_can_register', '0', 'yes'), ('admin_email', 'you@example.com', 'yes'), ('start_of_week', '1', 'yes'), ('use_balanceTags', '0', 'yes'), ('use_smilies', '1', 'yes'), ('require_name_email', '1', 'yes'), ('comments_notify', '1', 'yes'), ('posts_per_rss', '10', 'yes'), ('rss_use_excerpt', '0', 'yes'), ('mailserver_url', 'mail.example.com', 'yes'), ('mailserver_login', 'login@example.com', 'yes'), ('mailserver_pass', 'password', 'yes'), ('mailserver_port', '110', 'yes'), ('default_category', '1', 'yes'), ('default_comment_status', 'open', 'yes'), ('default_ping_status', 'open', 'yes'), ('default_pingback_flag', '1', 'yes'), ('posts_per_page', '10', 'yes'), ('date_format', 'j F Y', 'yes'), ('time_format', 'G \h i \m\i\n', 'yes'), ('links_updated_date_format', 'j F Y G \h i \m\i\n', 'yes'), ('links_recently_updated_prepend', '<em>', 'yes'), ('links_recently_updated_append', '</em>', 'yes'), ('links_recently_updated_time', '120', 'yes'), ('comment_moderation', '0', 'yes'), ('moderation_notify', '1', 'yes'), ('permalink_structure', '', 'yes'), ('gzipcompression', '0', 'yes'), ('hack_file', '0', 'yes'), ('blog_charset', 'UTF-8', 'yes'), ('moderation_keys', '', 'no'), ('active_plugins', 'a:0:{}', 'yes'), ('home', 'http://blog.dev.cinemur.fr', 'yes'), ('category_base', '', 'yes'), ('ping_sites', 'http://rpc.pingomatic.com/', 'yes'), ('advanced_edit', '0', 'yes'), ('comment_max_links', '2', 'yes'), ('gmt_offset', '1', 'yes'), ('default_email_category', '1', 'yes'), ('recently_edited', '', 'no'), ('template', 'twentythirteen', 'yes'), ('stylesheet', 'twentythirteen', 'yes'), ('comment_whitelist', '1', 'yes'), ('blacklist_keys', '', 'no'), ('comment_registration', '0', 'yes'), ('html_type', 'text/html', 'yes'), ('use_trackback', '0', 'yes'), ('default_role', 'subscriber', 'yes'), ('db_version', '25824', 'yes'), ('uploads_use_yearmonth_folders', '1', 'yes'), ('upload_path', '', 'yes'), ('blog_public', '1', 'yes'), ('default_link_category', '2', 'yes'), ('show_on_front', 'posts', 'yes'), ('tag_base', '', 'yes'), ('show_avatars', '1', 'yes'), ('avatar_rating', 'G', 'yes'), ('upload_url_path', '', 'yes'), ('thumbnail_size_w', '150', 'yes'), ('thumbnail_size_h', '150', 'yes'), ('thumbnail_crop', '1', 'yes'), ('medium_size_w', '300', 'yes'), ('medium_size_h', '300', 'yes'), ('avatar_default', 'mystery', 'yes'), ('large_size_w', '1024', 'yes'), ('large_size_h', '1024', 'yes'), ('image_default_link_type', 'file', 'yes'), ('image_default_size', '', 'yes'), ('image_default_align', '', 'yes'), ('close_comments_for_old_posts', '0', 'yes'), ('close_comments_days_old', '14', 'yes'), ('thread_comments', '1', 'yes'), ('thread_comments_depth', '5', 'yes'), ('page_comments', '0', 'yes'), ('comments_per_page', '50', 'yes'), ('default_comments_page', 'newest', 'yes'), ('comment_order', 'asc', 'yes'), ('sticky_posts', 'a:0:{}', 'yes'), ('widget_categories', 'a:0:{}', 'yes'), ('widget_text', 'a:0:{}', 'yes'), ('widget_rss', 'a:0:{}', 'yes'), ('uninstall_plugins', 'a:0:{}', 'no'), ('timezone_string', '', 'yes'), ('page_for_posts', '0', 'yes'), ('page_on_front', '0', 'yes'), ('default_post_format', '0', 'yes'), ('link_manager_enabled', '0', 'yes'), ('initial_db_version', '25824', 'yes')
+---- to ----
+INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('siteurl', 'http://blog.dev.cinemur.fr', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blogname', 'Mon site', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blogdescription', 'Un site utilisant WordPress', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('users_can_register', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('admin_email', 'you@example.com', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('start_of_week', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('use_balanceTags', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('use_smilies', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('require_name_email', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comments_notify', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('posts_per_rss', '10', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('rss_use_excerpt', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('mailserver_url', 'mail.example.com', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('mailserver_login', 'login@example.com', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('mailserver_pass', 'password', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('mailserver_port', '110', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_category', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_comment_status', 'open', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_ping_status', 'open', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_pingback_flag', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('posts_per_page', '10', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('date_format', 'j F Y', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('time_format', 'G \h i \m\i\n', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('links_updated_date_format', 'j F Y G \h i \m\i\n', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('links_recently_updated_prepend', '<em>', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('links_recently_updated_append', '</em>', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('links_recently_updated_time', '120', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_moderation', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('moderation_notify', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('permalink_structure', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('gzipcompression', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('hack_file', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blog_charset', 'UTF-8', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('moderation_keys', '', 'no');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('active_plugins', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('home', 'http://blog.dev.cinemur.fr', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('category_base', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('ping_sites', 'http://rpc.pingomatic.com/', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('advanced_edit', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_max_links', '2', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('gmt_offset', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_email_category', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('recently_edited', '', 'no');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('template', 'twentythirteen', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('stylesheet', 'twentythirteen', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_whitelist', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blacklist_keys', '', 'no');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_registration', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('html_type', 'text/html', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('use_trackback', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_role', 'subscriber', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('db_version', '25824', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('uploads_use_yearmonth_folders', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('upload_path', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blog_public', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_link_category', '2', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('show_on_front', 'posts', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('tag_base', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('show_avatars', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('avatar_rating', 'G', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('upload_url_path', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thumbnail_size_w', '150', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thumbnail_size_h', '150', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thumbnail_crop', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('medium_size_w', '300', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('medium_size_h', '300', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('avatar_default', 'mystery', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('large_size_w', '1024', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('large_size_h', '1024', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('image_default_link_type', 'file', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('image_default_size', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('image_default_align', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('close_comments_for_old_posts', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('close_comments_days_old', '14', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thread_comments', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thread_comments_depth', '5', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('page_comments', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comments_per_page', '50', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_comments_page', 'newest', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_order', 'asc', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('sticky_posts', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('widget_categories', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('widget_text', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('widget_rss', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('uninstall_plugins', 'a:0:{}', 'no');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('timezone_string', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('page_for_posts', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('page_on_front', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_post_format', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('link_manager_enabled', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('initial_db_version', '25824', 'yes')
+---------------------
+[1385982187.05] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('cm_user_roles', 'a:1:{s:13:"administrator";a:2:{s:4:"name";s:13:"Administrator";s:12:"capabilities";a:0:{}}}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'cm_user_roles';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('cm_user_roles', 'a:1:{s:13:"administrator";a:2:{s:4:"name";s:13:"Administrator";s:12:"capabilities";a:0:{}}}', 'yes') 
+---------------------
+[1385982192.16] Converting :
+INSERT INTO `cm_users` (`user_pass`,`user_email`,`user_url`,`user_nicename`,`display_name`,`user_registered`,`user_login`) VALUES ('$P$B0blZcSlADnZSGSmphh8H.GCdFh3D9/','guillaume.mercey@cinemur.fr','','admin','admin','2013-12-02 11:03:12','admin')
+---- to ----
+INSERT INTO test.cm_users (user_pass,user_email,user_url,user_nicename,display_name,user_registered,user_login) VALUES ('$P$B0blZcSlADnZSGSmphh8H.GCdFh3D9/','guillaume.mercey@cinemur.fr','','admin','admin','2013-12-02 11:03:12','admin')
+---------------------
+[1385982192.2] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'first_name','')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','first_name','')
+---------------------
+[1385982192.22] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'last_name','')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','last_name','')
+---------------------
+[1385982192.23] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'nickname','admin')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','nickname','admin')
+---------------------
+[1385982192.24] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'description','')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','description','')
+---------------------
+[1385982192.25] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'rich_editing','true')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','rich_editing','true')
+---------------------
+[1385982192.25] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'comment_shortcuts','false')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','comment_shortcuts','false')
+---------------------
+[1385982192.26] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'admin_color','fresh')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','admin_color','fresh')
+---------------------
+[1385982192.27] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'use_ssl','0')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','use_ssl','0')
+---------------------
+[1385982192.28] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'show_admin_bar_front','true')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','show_admin_bar_front','true')
+---------------------
+[1385982192.28] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'cm_capabilities','a:1:{s:10:"subscriber";b:1;}')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','cm_capabilities','a:1:{s:10:"subscriber";b:1;}')
+---------------------
+[1385982192.29] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'cm_user_level','0')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','cm_user_level','0')
+---------------------
+[1385982192.3] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'dismissed_wp_pointers','wp330_toolbar,wp330_saving_widgets,wp340_choose_image_from_library,wp340_customize_current_theme_link,wp350_media,wp360_revisions,wp360_locks')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','dismissed_wp_pointers','wp330_toolbar,wp330_saving_widgets,wp340_choose_image_from_library,wp340_customize_current_theme_link,wp350_media,wp360_revisions,wp360_locks')
+---------------------
+[1385982192.32] Converting :
+INSERT INTO `cm_terms` (`term_id`,`name`,`slug`,`term_group`) VALUES (1,'Non classé','non-classe',0)
+---- to ----
+INSERT INTO test.cm_terms (term_id,name,slug,term_group) VALUES ('1','Non classé','non-classe',0)
+---------------------
+[1385982192.34] Converting :
+INSERT INTO `cm_term_taxonomy` (`term_id`,`taxonomy`,`description`,`parent`,`count`) VALUES (1,'category','',0,1)
+---- to ----
+INSERT INTO test.cm_term_taxonomy (term_id,taxonomy,description,parent,count) VALUES ('1','category','',0,1)
+---------------------
+[1385982192.37] Converting :
+INSERT INTO `cm_posts` (`post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_excerpt`,`post_title`,`post_name`,`post_modified`,`post_modified_gmt`,`guid`,`comment_count`,`to_ping`,`pinged`,`post_content_filtered`) VALUES (1,'2013-12-02 11:03:12','2013-12-02 11:03:12','Bienvenue dans WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis lancez-vous&nbsp;!','','Bonjour tout le monde&nbsp;!','bonjour-tout-le-monde','2013-12-02 11:03:12','2013-12-02 11:03:12','http://blog.dev.cinemur.fr/?p=1',1,'','','')
+---- to ----
+INSERT INTO test.cm_posts (post_author,post_date,post_date_gmt,post_content,post_excerpt,post_title,post_name,post_modified,post_modified_gmt,guid,comment_count,to_ping,pinged,post_content_filtered) VALUES ('1','2013-12-02 11:03:12','2013-12-02 11:03:12','Bienvenue dans WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis lancez-vous&nbsp;!','','Bonjour tout le monde&nbsp;!','bonjour-tout-le-monde','2013-12-02 11:03:12','2013-12-02 11:03:12','http://blog.dev.cinemur.fr/?p=1',1,'','','')
+---------------------
+[1385982192.4] Converting :
+INSERT INTO `cm_term_relationships` (`term_taxonomy_id`,`object_id`) VALUES (1,1)
+---- to ----
+INSERT INTO test.cm_term_relationships (term_taxonomy_id,object_id) VALUES ('1',1)
+---------------------
+[1385982192.41] Converting :
+INSERT INTO `cm_comments` (`comment_post_ID`,`comment_author`,`comment_author_email`,`comment_author_url`,`comment_date`,`comment_date_gmt`,`comment_content`) VALUES (1,'Monsieur WordPress','','http://wordpress.org/','2013-12-02 11:03:12','2013-12-02 11:03:12','Bonjour, ceci est un commentaire.
+Pour supprimer un commentaire, connectez-vous et affichez les commentaires de cet article. Vous pourrez alors les modifier ou les supprimer.')
+---- to ----
+INSERT INTO test.cm_comments ("comment_post_ID" ,comment_author,comment_author_email,comment_author_url,comment_date,comment_date_gmt,comment_content) VALUES ('1','Monsieur WordPress','','http://wordpress.org/','2013-12-02 11:03:12','2013-12-02 11:03:12','Bonjour, ceci est un commentaire.
+Pour supprimer un commentaire, connectez-vous et affichez les commentaires de cet article. Vous pourrez alors les modifier ou les supprimer.')
+---------------------
+[1385982192.44] Converting :
+INSERT INTO `cm_posts` (`post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_excerpt`,`post_title`,`post_name`,`post_modified`,`post_modified_gmt`,`guid`,`post_type`,`to_ping`,`pinged`,`post_content_filtered`) VALUES (1,'2013-12-02 11:03:12','2013-12-02 11:03:12','Voici un exemple de page. Elle est différente d''un article de blog, en cela qu''elle restera à la même place, et s''affichera dans le menu de navigation de votre site (en fonction de votre thème). La plupart des gens commencent par écrire une page « À Propos » qui les présente aux visiteurs potentiels du site. Vous pourriez y écrire quelque chose de ce tenant :
+
+<blockquote>Bonjour ! Je suis un mécanicien qui aspire à devenir un acteur, et voici mon blog. J''habite à Bordeaux, j''ai un super chien baptisé Russell, et j''aime la vodka-ananas (ainsi que regarder la pluie tomber).</blockquote>
+
+...ou bien quelque chose comme ça :
+
+<blockquote>La société 123 Machin Truc a été créée en 1971, et n''a cessé de proposer au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules super pour la communauté bouzemontoise.</blockquote>
+
+Étant donné que vous êtes un nouvel utilisateur de WordPress, vous devriez vous rendre sur votre <a href="http://blog.dev.cinemur.fr/wp-admin/">tableau de bord</a> pour effacer la présente page, et créer de nouvelles pages avec votre propre contenu. Amusez-vous bien !','','Page d&rsquo;exemple','page-d-exemple','2013-12-02 11:03:12','2013-12-02 11:03:12','http://blog.dev.cinemur.fr/?page_id=2','page','','','')
+---- to ----
+INSERT INTO test.cm_posts (post_author,post_date,post_date_gmt,post_content,post_excerpt,post_title,post_name,post_modified,post_modified_gmt,guid,post_type,to_ping,pinged,post_content_filtered) VALUES ('1','2013-12-02 11:03:12','2013-12-02 11:03:12','Voici un exemple de page. Elle est différente d''un article de blog, en cela qu''elle restera à la même place, et s''affichera dans le menu de navigation de votre site (en fonction de votre thème). La plupart des gens commencent par écrire une page « À Propos » qui les présente aux visiteurs potentiels du site. Vous pourriez y écrire quelque chose de ce tenant :
+
+<blockquote>Bonjour ! Je suis un mécanicien qui aspire à devenir un acteur, et voici mon blog. J''habite à Bordeaux, j''ai un super chien baptisé Russell, et j''aime la vodka-ananas (ainsi que regarder la pluie tomber).</blockquote>
+
+...ou bien quelque chose comme ça :
+
+<blockquote>La société 123 Machin Truc a été créée en 1971, et n''a cessé de proposer au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules super pour la communauté bouzemontoise.</blockquote>
+
+Étant donné que vous êtes un nouvel utilisateur de WordPress, vous devriez vous rendre sur votre <a href="http://blog.dev.cinemur.fr/wp-admin/">tableau de bord</a> pour effacer la présente page, et créer de nouvelles pages avec votre propre contenu. Amusez-vous bien !','','Page d&rsquo;exemple','page-d-exemple','2013-12-02 11:03:12','2013-12-02 11:03:12','http://blog.dev.cinemur.fr/?page_id=2','page','','','')
+---------------------
+[1385982192.44] Converting :
+INSERT INTO `cm_postmeta` (`post_id`,`meta_key`,`meta_value`) VALUES (2,'_wp_page_template','default')
+---- to ----
+INSERT INTO test.cm_postmeta (post_id,meta_key,meta_value) VALUES (2,'_wp_page_template','default')
+---------------------
+[1385982192.47] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_search', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_search';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_search', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982192.48] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_recent-posts', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_recent-posts';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_recent-posts', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982192.48] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_recent-comments', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_recent-comments';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_recent-comments', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982192.49] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_archives', 'a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_archives';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_archives', 'a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982192.51] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_meta', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_meta';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_meta', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982192.51] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('sidebars_widgets', 'a:4:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:9:"sidebar-2";a:0:{}s:13:"array_version";i:3;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'sidebars_widgets';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('sidebars_widgets', 'a:4:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:9:"sidebar-2";a:0:{}s:13:"array_version";i:3;}', 'yes') 
+---------------------
+[1385982192.52] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'show_welcome_panel','1')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','show_welcome_panel','1')
+---------------------
+[1385982666.62] Converting :
+INSERT INTO cm_options (option_name, option_value, autoload) VALUES ('siteurl', 'http://blog.dev.cinemur.fr', 'yes'), ('blogname', 'Mon site', 'yes'), ('blogdescription', 'Un site utilisant WordPress', 'yes'), ('users_can_register', '0', 'yes'), ('admin_email', 'you@example.com', 'yes'), ('start_of_week', '1', 'yes'), ('use_balanceTags', '0', 'yes'), ('use_smilies', '1', 'yes'), ('require_name_email', '1', 'yes'), ('comments_notify', '1', 'yes'), ('posts_per_rss', '10', 'yes'), ('rss_use_excerpt', '0', 'yes'), ('mailserver_url', 'mail.example.com', 'yes'), ('mailserver_login', 'login@example.com', 'yes'), ('mailserver_pass', 'password', 'yes'), ('mailserver_port', '110', 'yes'), ('default_category', '1', 'yes'), ('default_comment_status', 'open', 'yes'), ('default_ping_status', 'open', 'yes'), ('default_pingback_flag', '1', 'yes'), ('posts_per_page', '10', 'yes'), ('date_format', 'j F Y', 'yes'), ('time_format', 'G \h i \m\i\n', 'yes'), ('links_updated_date_format', 'j F Y G \h i \m\i\n', 'yes'), ('links_recently_updated_prepend', '<em>', 'yes'), ('links_recently_updated_append', '</em>', 'yes'), ('links_recently_updated_time', '120', 'yes'), ('comment_moderation', '0', 'yes'), ('moderation_notify', '1', 'yes'), ('permalink_structure', '', 'yes'), ('gzipcompression', '0', 'yes'), ('hack_file', '0', 'yes'), ('blog_charset', 'UTF-8', 'yes'), ('moderation_keys', '', 'no'), ('active_plugins', 'a:0:{}', 'yes'), ('home', 'http://blog.dev.cinemur.fr', 'yes'), ('category_base', '', 'yes'), ('ping_sites', 'http://rpc.pingomatic.com/', 'yes'), ('advanced_edit', '0', 'yes'), ('comment_max_links', '2', 'yes'), ('gmt_offset', '1', 'yes'), ('default_email_category', '1', 'yes'), ('recently_edited', '', 'no'), ('template', 'twentythirteen', 'yes'), ('stylesheet', 'twentythirteen', 'yes'), ('comment_whitelist', '1', 'yes'), ('blacklist_keys', '', 'no'), ('comment_registration', '0', 'yes'), ('html_type', 'text/html', 'yes'), ('use_trackback', '0', 'yes'), ('default_role', 'subscriber', 'yes'), ('db_version', '25824', 'yes'), ('uploads_use_yearmonth_folders', '1', 'yes'), ('upload_path', '', 'yes'), ('blog_public', '1', 'yes'), ('default_link_category', '2', 'yes'), ('show_on_front', 'posts', 'yes'), ('tag_base', '', 'yes'), ('show_avatars', '1', 'yes'), ('avatar_rating', 'G', 'yes'), ('upload_url_path', '', 'yes'), ('thumbnail_size_w', '150', 'yes'), ('thumbnail_size_h', '150', 'yes'), ('thumbnail_crop', '1', 'yes'), ('medium_size_w', '300', 'yes'), ('medium_size_h', '300', 'yes'), ('avatar_default', 'mystery', 'yes'), ('large_size_w', '1024', 'yes'), ('large_size_h', '1024', 'yes'), ('image_default_link_type', 'file', 'yes'), ('image_default_size', '', 'yes'), ('image_default_align', '', 'yes'), ('close_comments_for_old_posts', '0', 'yes'), ('close_comments_days_old', '14', 'yes'), ('thread_comments', '1', 'yes'), ('thread_comments_depth', '5', 'yes'), ('page_comments', '0', 'yes'), ('comments_per_page', '50', 'yes'), ('default_comments_page', 'newest', 'yes'), ('comment_order', 'asc', 'yes'), ('sticky_posts', 'a:0:{}', 'yes'), ('widget_categories', 'a:0:{}', 'yes'), ('widget_text', 'a:0:{}', 'yes'), ('widget_rss', 'a:0:{}', 'yes'), ('uninstall_plugins', 'a:0:{}', 'no'), ('timezone_string', '', 'yes'), ('page_for_posts', '0', 'yes'), ('page_on_front', '0', 'yes'), ('default_post_format', '0', 'yes'), ('link_manager_enabled', '0', 'yes'), ('initial_db_version', '25824', 'yes')
+---- to ----
+INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('siteurl', 'http://blog.dev.cinemur.fr', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blogname', 'Mon site', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blogdescription', 'Un site utilisant WordPress', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('users_can_register', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('admin_email', 'you@example.com', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('start_of_week', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('use_balanceTags', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('use_smilies', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('require_name_email', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comments_notify', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('posts_per_rss', '10', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('rss_use_excerpt', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('mailserver_url', 'mail.example.com', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('mailserver_login', 'login@example.com', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('mailserver_pass', 'password', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('mailserver_port', '110', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_category', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_comment_status', 'open', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_ping_status', 'open', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_pingback_flag', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('posts_per_page', '10', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('date_format', 'j F Y', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('time_format', 'G \h i \m\i\n', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('links_updated_date_format', 'j F Y G \h i \m\i\n', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('links_recently_updated_prepend', '<em>', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('links_recently_updated_append', '</em>', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('links_recently_updated_time', '120', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_moderation', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('moderation_notify', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('permalink_structure', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('gzipcompression', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('hack_file', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blog_charset', 'UTF-8', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('moderation_keys', '', 'no');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('active_plugins', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('home', 'http://blog.dev.cinemur.fr', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('category_base', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('ping_sites', 'http://rpc.pingomatic.com/', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('advanced_edit', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_max_links', '2', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('gmt_offset', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_email_category', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('recently_edited', '', 'no');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('template', 'twentythirteen', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('stylesheet', 'twentythirteen', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_whitelist', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blacklist_keys', '', 'no');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_registration', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('html_type', 'text/html', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('use_trackback', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_role', 'subscriber', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('db_version', '25824', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('uploads_use_yearmonth_folders', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('upload_path', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('blog_public', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_link_category', '2', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('show_on_front', 'posts', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('tag_base', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('show_avatars', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('avatar_rating', 'G', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('upload_url_path', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thumbnail_size_w', '150', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thumbnail_size_h', '150', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thumbnail_crop', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('medium_size_w', '300', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('medium_size_h', '300', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('avatar_default', 'mystery', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('large_size_w', '1024', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('large_size_h', '1024', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('image_default_link_type', 'file', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('image_default_size', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('image_default_align', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('close_comments_for_old_posts', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('close_comments_days_old', '14', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thread_comments', '1', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('thread_comments_depth', '5', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('page_comments', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comments_per_page', '50', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_comments_page', 'newest', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('comment_order', 'asc', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('sticky_posts', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('widget_categories', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('widget_text', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('widget_rss', 'a:0:{}', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('uninstall_plugins', 'a:0:{}', 'no');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('timezone_string', '', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('page_for_posts', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('page_on_front', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('default_post_format', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('link_manager_enabled', '0', 'yes');INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES('initial_db_version', '25824', 'yes')
+---------------------
+[1385982666.69] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('cm_user_roles', 'a:1:{s:13:"administrator";a:2:{s:4:"name";s:13:"Administrator";s:12:"capabilities";a:0:{}}}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'cm_user_roles';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('cm_user_roles', 'a:1:{s:13:"administrator";a:2:{s:4:"name";s:13:"Administrator";s:12:"capabilities";a:0:{}}}', 'yes') 
+---------------------
+[1385982671.82] Converting :
+INSERT INTO `cm_users` (`user_pass`,`user_email`,`user_url`,`user_nicename`,`display_name`,`user_registered`,`user_login`) VALUES ('$P$Bl8qNnULj8yP5jcmwg3obMBjK7BbZP1','guillaume.mercey@cinemur.fr','','admin','admin','2013-12-02 11:11:11','admin')
+---- to ----
+INSERT INTO test.cm_users (user_pass,user_email,user_url,user_nicename,display_name,user_registered,user_login) VALUES ('$P$Bl8qNnULj8yP5jcmwg3obMBjK7BbZP1','guillaume.mercey@cinemur.fr','','admin','admin','2013-12-02 11:11:11','admin')
+---------------------
+[1385982671.84] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'first_name','')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','first_name','')
+---------------------
+[1385982671.87] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'last_name','')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','last_name','')
+---------------------
+[1385982671.88] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'nickname','admin')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','nickname','admin')
+---------------------
+[1385982671.89] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'description','')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','description','')
+---------------------
+[1385982671.89] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'rich_editing','true')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','rich_editing','true')
+---------------------
+[1385982671.9] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'comment_shortcuts','false')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','comment_shortcuts','false')
+---------------------
+[1385982671.91] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'admin_color','fresh')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','admin_color','fresh')
+---------------------
+[1385982671.92] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'use_ssl','0')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','use_ssl','0')
+---------------------
+[1385982671.92] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'show_admin_bar_front','true')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','show_admin_bar_front','true')
+---------------------
+[1385982671.93] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'cm_capabilities','a:1:{s:10:"subscriber";b:1;}')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','cm_capabilities','a:1:{s:10:"subscriber";b:1;}')
+---------------------
+[1385982671.94] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'cm_user_level','0')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','cm_user_level','0')
+---------------------
+[1385982671.95] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'dismissed_wp_pointers','wp330_toolbar,wp330_saving_widgets,wp340_choose_image_from_library,wp340_customize_current_theme_link,wp350_media,wp360_revisions,wp360_locks')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','dismissed_wp_pointers','wp330_toolbar,wp330_saving_widgets,wp340_choose_image_from_library,wp340_customize_current_theme_link,wp350_media,wp360_revisions,wp360_locks')
+---------------------
+[1385982671.97] Converting :
+INSERT INTO `cm_terms` (`term_id`,`name`,`slug`,`term_group`) VALUES (1,'Non classé','non-classe',0)
+---- to ----
+INSERT INTO test.cm_terms (term_id,name,slug,term_group) VALUES ('1','Non classé','non-classe',0)
+---------------------
+[1385982671.99] Converting :
+INSERT INTO `cm_term_taxonomy` (`term_id`,`taxonomy`,`description`,`parent`,`count`) VALUES (1,'category','',0,1)
+---- to ----
+INSERT INTO test.cm_term_taxonomy (term_id,taxonomy,description,parent,count) VALUES ('1','category','',0,1)
+---------------------
+[1385982672.02] Converting :
+INSERT INTO `cm_posts` (`post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_excerpt`,`post_title`,`post_name`,`post_modified`,`post_modified_gmt`,`guid`,`comment_count`,`to_ping`,`pinged`,`post_content_filtered`) VALUES (1,'2013-12-02 11:11:12','2013-12-02 11:11:12','Bienvenue dans WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis lancez-vous&nbsp;!','','Bonjour tout le monde&nbsp;!','bonjour-tout-le-monde','2013-12-02 11:11:12','2013-12-02 11:11:12','http://blog.dev.cinemur.fr/?p=1',1,'','','')
+---- to ----
+INSERT INTO test.cm_posts (post_author,post_date,post_date_gmt,post_content,post_excerpt,post_title,post_name,post_modified,post_modified_gmt,guid,comment_count,to_ping,pinged,post_content_filtered) VALUES ('1','2013-12-02 11:11:12','2013-12-02 11:11:12','Bienvenue dans WordPress. Ceci est votre premier article. Modifiez-le ou supprimez-le, puis lancez-vous&nbsp;!','','Bonjour tout le monde&nbsp;!','bonjour-tout-le-monde','2013-12-02 11:11:12','2013-12-02 11:11:12','http://blog.dev.cinemur.fr/?p=1',1,'','','')
+---------------------
+[1385982672.05] Converting :
+INSERT INTO `cm_term_relationships` (`term_taxonomy_id`,`object_id`) VALUES (1,1)
+---- to ----
+INSERT INTO test.cm_term_relationships (term_taxonomy_id,object_id) VALUES ('1',1)
+---------------------
+[1385982672.05] Converting :
+INSERT INTO `cm_comments` (`comment_post_ID`,`comment_author`,`comment_author_email`,`comment_author_url`,`comment_date`,`comment_date_gmt`,`comment_content`) VALUES (1,'Monsieur WordPress','','http://wordpress.org/','2013-12-02 11:11:12','2013-12-02 11:11:12','Bonjour, ceci est un commentaire.
+Pour supprimer un commentaire, connectez-vous et affichez les commentaires de cet article. Vous pourrez alors les modifier ou les supprimer.')
+---- to ----
+INSERT INTO test.cm_comments ("comment_post_ID" ,comment_author,comment_author_email,comment_author_url,comment_date,comment_date_gmt,comment_content) VALUES ('1','Monsieur WordPress','','http://wordpress.org/','2013-12-02 11:11:12','2013-12-02 11:11:12','Bonjour, ceci est un commentaire.
+Pour supprimer un commentaire, connectez-vous et affichez les commentaires de cet article. Vous pourrez alors les modifier ou les supprimer.')
+---------------------
+[1385982672.09] Converting :
+INSERT INTO `cm_posts` (`post_author`,`post_date`,`post_date_gmt`,`post_content`,`post_excerpt`,`post_title`,`post_name`,`post_modified`,`post_modified_gmt`,`guid`,`post_type`,`to_ping`,`pinged`,`post_content_filtered`) VALUES (1,'2013-12-02 11:11:12','2013-12-02 11:11:12','Voici un exemple de page. Elle est différente d''un article de blog, en cela qu''elle restera à la même place, et s''affichera dans le menu de navigation de votre site (en fonction de votre thème). La plupart des gens commencent par écrire une page « À Propos » qui les présente aux visiteurs potentiels du site. Vous pourriez y écrire quelque chose de ce tenant :
+
+<blockquote>Bonjour ! Je suis un mécanicien qui aspire à devenir un acteur, et voici mon blog. J''habite à Bordeaux, j''ai un super chien baptisé Russell, et j''aime la vodka-ananas (ainsi que regarder la pluie tomber).</blockquote>
+
+...ou bien quelque chose comme ça :
+
+<blockquote>La société 123 Machin Truc a été créée en 1971, et n''a cessé de proposer au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules super pour la communauté bouzemontoise.</blockquote>
+
+Étant donné que vous êtes un nouvel utilisateur de WordPress, vous devriez vous rendre sur votre <a href="http://blog.dev.cinemur.fr/wp-admin/">tableau de bord</a> pour effacer la présente page, et créer de nouvelles pages avec votre propre contenu. Amusez-vous bien !','','Page d&rsquo;exemple','page-d-exemple','2013-12-02 11:11:12','2013-12-02 11:11:12','http://blog.dev.cinemur.fr/?page_id=2','page','','','')
+---- to ----
+INSERT INTO test.cm_posts (post_author,post_date,post_date_gmt,post_content,post_excerpt,post_title,post_name,post_modified,post_modified_gmt,guid,post_type,to_ping,pinged,post_content_filtered) VALUES ('1','2013-12-02 11:11:12','2013-12-02 11:11:12','Voici un exemple de page. Elle est différente d''un article de blog, en cela qu''elle restera à la même place, et s''affichera dans le menu de navigation de votre site (en fonction de votre thème). La plupart des gens commencent par écrire une page « À Propos » qui les présente aux visiteurs potentiels du site. Vous pourriez y écrire quelque chose de ce tenant :
+
+<blockquote>Bonjour ! Je suis un mécanicien qui aspire à devenir un acteur, et voici mon blog. J''habite à Bordeaux, j''ai un super chien baptisé Russell, et j''aime la vodka-ananas (ainsi que regarder la pluie tomber).</blockquote>
+
+...ou bien quelque chose comme ça :
+
+<blockquote>La société 123 Machin Truc a été créée en 1971, et n''a cessé de proposer au public des machins-trucs de qualité depuis lors. Située à Saint-Remy-en-Bouzemont-Saint-Genest-et-Isson, 123 Machin Truc emploie 2 000 personnes, et fabrique toutes sortes de bidules super pour la communauté bouzemontoise.</blockquote>
+
+Étant donné que vous êtes un nouvel utilisateur de WordPress, vous devriez vous rendre sur votre <a href="http://blog.dev.cinemur.fr/wp-admin/">tableau de bord</a> pour effacer la présente page, et créer de nouvelles pages avec votre propre contenu. Amusez-vous bien !','','Page d&rsquo;exemple','page-d-exemple','2013-12-02 11:11:12','2013-12-02 11:11:12','http://blog.dev.cinemur.fr/?page_id=2','page','','','')
+---------------------
+[1385982672.09] Converting :
+INSERT INTO `cm_postmeta` (`post_id`,`meta_key`,`meta_value`) VALUES (2,'_wp_page_template','default')
+---- to ----
+INSERT INTO test.cm_postmeta (post_id,meta_key,meta_value) VALUES (2,'_wp_page_template','default')
+---------------------
+[1385982672.12] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_search', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_search';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_search', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982672.13] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_recent-posts', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_recent-posts';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_recent-posts', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982672.13] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_recent-comments', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_recent-comments';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_recent-comments', 'a:2:{i:2;a:2:{s:5:"title";s:0:"";s:6:"number";i:5;}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982672.14] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_archives', 'a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_archives';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_archives', 'a:2:{i:2;a:3:{s:5:"title";s:0:"";s:5:"count";i:0;s:8:"dropdown";i:0;}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982672.16] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('widget_meta', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'widget_meta';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('widget_meta', 'a:2:{i:2;a:1:{s:5:"title";s:0:"";}s:12:"_multiwidget";i:1;}', 'yes') 
+---------------------
+[1385982672.17] Converting :
+INSERT INTO `cm_options` (`option_name`, `option_value`, `autoload`) VALUES ('sidebars_widgets', 'a:4:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:9:"sidebar-2";a:0:{}s:13:"array_version";i:3;}', 'yes') ON DUPLICATE KEY UPDATE `option_name` = VALUES(`option_name`), `option_value` = VALUES(`option_value`), `autoload` = VALUES(`autoload`)
+---- to ----
+DELETE FROM test.cm_options WHERE option_name = 'sidebars_widgets';INSERT INTO test.cm_options (option_name, option_value, autoload) VALUES ('sidebars_widgets', 'a:4:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:6:{i:0;s:8:"search-2";i:1;s:14:"recent-posts-2";i:2;s:17:"recent-comments-2";i:3;s:10:"archives-2";i:4;s:12:"categories-2";i:5;s:6:"meta-2";}s:9:"sidebar-2";a:0:{}s:13:"array_version";i:3;}', 'yes') 
+---------------------
+[1385982672.18] Converting :
+INSERT INTO `cm_usermeta` (`user_id`,`meta_key`,`meta_value`) VALUES (1,'show_welcome_panel','1')
+---- to ----
+INSERT INTO test.cm_usermeta (user_id,meta_key,meta_value) VALUES ('1','show_welcome_panel','1')
+---------------------

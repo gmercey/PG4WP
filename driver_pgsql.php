@@ -128,20 +128,27 @@
 		}
 		
 		$initial = $sql;
-		$sql = pg4wp_rewrite( $sql);
-		
-		$GLOBALS['pg4wp_result'] = pg_query($sql);
+		$sql = pg4wp_rewrite( $sql );
+			
+		/**
+		 * Run query
+		 */
+		$GLOBALS['pg4wp_result'] = pg_query( $sql );
+
+		// debug
 		if( (PG4WP_DEBUG || PG4WP_LOG_ERRORS) && $GLOBALS['pg4wp_result'] === false && $err = pg_last_error())
 		{
 			$ignore = false;
-			if( defined('WP_INSTALLING') && WP_INSTALLING)
-			{
+			if( defined('WP_INSTALLING') && WP_INSTALLING) {
 				global $table_prefix;
 				$ignore = strpos($err, 'relation "'.$table_prefix);
 			}
-			if( ! $ignore )
+
+			if( ! $ignore ) {
 				error_log('['.microtime(true)."] Error running :\n$initial\n---- converted to ----\n$sql\n----> $err\n---------------------\n", 3, PG4WP_LOG.'pg4wp_errors.log');
+			}
 		}
+
 		return $GLOBALS['pg4wp_result'];
 	}
 	
@@ -153,9 +160,11 @@
 		$lastq = $GLOBALS['pg4wp_last_insert'];
 		
 		$seq = $table . '_seq';
+
+		$data = null;
 		
 		// Table 'term_relationships' doesn't have a sequence
-		if( $table == $wpdb->term_relationships)
+		if( $table == PG4WP_SCHEMA.'.'.$wpdb->term_relationships)
 		{
 			$sql = 'NO QUERY';
 			$data = 0;
@@ -175,9 +184,9 @@
 			$sql = "SELECT CURRVAL('$seq')";
 			
 			$res = pg_query($sql);
-			if( false !== $res)
+			if( false !== $res) {
 				$data = pg_fetch_result($res, 0, 0);
-			elseif( PG4WP_DEBUG || PG4WP_ERROR_LOG)
+			} elseif( PG4WP_DEBUG || PG4WP_ERROR_LOG)
 			{
 				$log = '['.microtime(true)."] wpsql_insert_id() was called with '$table' and '$ins_field'".
 						" and generated an error. The latest INSERT query was :\n'$lastq'\n";
@@ -210,6 +219,14 @@
 		{
 			$logto = 'SELECT';
 
+			preg_match('/FROM [`]?(\w+){1}[`]?/', $sql, $matches);
+			$table = $matches[1];
+
+			if (FALSE === strstr('.', $table)){
+				$sql = str_replace($table, PG4WP_SCHEMA.'.'.$table, $sql);
+				$table = PG4WP_SCHEMA.'.'.$table;
+			}
+			
 			// SQL_CALC_FOUND_ROWS doesn't exist in PostgreSQL but it's needed for correct paging
 			if( false !== strpos($sql, 'SQL_CALC_FOUND_ROWS'))
 			{
@@ -229,9 +246,6 @@
 				$pattern = '/SELECT\s+([^\s]+)\s+(FROM.+)/';
 				$sql = preg_replace( $pattern, 'SELECT COUNT($1) $2', $sql);
 			}
-
-			$test = preg_replace('/FROM /', 'FROM '.PG4WP_SCHEMA.'.', $sql);
-			error_log(print_r($test,true));
 			
 			// Handle CAST( ... AS CHAR)
 			$sql = preg_replace( '/CAST\((.+) AS CHAR\)/', 'CAST($1 AS TEXT)', $sql);
@@ -291,13 +305,21 @@
 			$sql = str_replace( 'post_date_gmt > 1970', 'post_date_gmt > to_timestamp (\'1970\')', $sql);
 			
 			// Akismet sometimes doesn't write 'comment_ID' with 'ID' in capitals where needed ...
-			if( false !== strpos( $sql, $wpdb->comments))
+			if( false !== strpos( $sql, $wpdb->comments)) {
 				$sql = str_replace(' comment_id ', ' comment_ID ', $sql);
-			
+			}
+				
 		} // UPDATE
 		elseif( 0 === strpos($sql, 'UPDATE'))
 		{
 			$logto = 'UPDATE';
+
+			preg_match('/UPDATE [`]?(\w+){1}[`]?/', $sql, $matches);
+			$table = $matches[1];
+			if (strstr('.', $table) === FALSE){
+				$sql = str_replace($table, PG4WP_SCHEMA.'.'.$table, $sql);
+			}
+
 			$pattern = '/LIMIT[ ]+\d+/';
 			$sql = preg_replace($pattern, '', $sql);
 			
@@ -312,10 +334,21 @@
 			// This will avoid modifications to anything following ' SET '
 			list($sql,$end) = explode( ' SET ', $sql, 2);
 			$end = ' SET '.$end;
+
+
+
 		} // UPDATE
 		elseif( 0 === strpos($sql, 'INSERT'))
 		{
 			$logto = 'INSERT';
+
+			preg_match('/INSERT INTO [`]?(\w+){1}[`]?/', $sql, $matches);
+			$table = $matches[1];
+			if (strstr('.', $table) === FALSE){
+				$sql = str_replace($table, PG4WP_SCHEMA.'.'.$table, $sql);
+			}
+			$GLOBALS['pg4wp_ins_table'] = $table;
+
 			$sql = str_replace('(0,',"('0',", $sql);
 			$sql = str_replace('(1,',"('1',", $sql);
 			
@@ -345,7 +378,8 @@
 				// Get the elements we need (table name, first field, corresponding value)
 				$pattern = '/INSERT INTO\s+([^\(]+)\(([^,]+)[^\(]+VALUES\s*\(([^,]+)/';
 				preg_match($pattern, $sql, $matches);
-				$table = PG4WP_SCHEMA.'.'.trim( $matches[1], ' `');
+				$table = trim( $matches[1], ' `');
+				
 				if( !in_array(trim($matches[1],'` '), array($wpdb->posts,$wpdb->comments)))
 				{
 					// Remove 'ON DUPLICATE KEY UPDATE...' and following
@@ -371,31 +405,55 @@
 		elseif( 0 === strpos( $sql, 'DELETE' ))
 		{
 			$logto = 'DELETE';
+
+			preg_match('/FROM [`]?(\w+){1}[`]?/', $sql, $matches);
+			$table = $matches[1];
+			if (FALSE === strstr('.', $table)){
+				$sql = str_replace($table, PG4WP_SCHEMA.'.'.$table, $sql);
+				$table = PG4WP_SCHEMA.'.'.$table;
+			}
 			// LIMIT is not allowed in DELETE queries
 			$sql = str_replace( 'LIMIT 1', '', $sql);
 			$sql = str_replace( ' REGEXP ', ' ~ ', $sql);
 			
 			// This handles removal of duplicate entries in table options
-			if( false !== strpos( $sql, 'DELETE o1 FROM '))
-				$sql = "DELETE FROM $wpdb->options WHERE option_id IN " .
+			if( false !== strpos( $sql, 'DELETE o1 FROM ')) {
+				$sql = "DELETE FROM $table WHERE option_id IN " .
 					"(SELECT o1.option_id FROM $wpdb->options AS o1, $wpdb->options AS o2 " .
 					"WHERE o1.option_name = o2.option_name " .
 					"AND o1.option_id < o2.option_id)";
+			}
+
+			if ( false !== strrpos( $sql, 'DELETE a, b')) {
+
+				preg_match_all('/WHERE(.*[\n]?)*/m', $sql, $matches);
+				$conditions = $matches[0][0];
+				$sql = "DELETE FROM $table WHERE option_id = ANY" .
+					"(SELECT unnest(ARRAY[a.option_id, b.option_id]) FROM $table a, $table b " . $conditions . ')';
+				$sql = preg_replace('/(option_value)(\s<\s[0-9]*)/', 'option_value::bigint$2', $sql);
+			}
 			
 			// Akismet sometimes doesn't write 'comment_ID' with 'ID' in capitals where needed ...
-			if( false !== strpos( $sql, $wpdb->comments))
+			if( false !== strpos( $sql, $wpdb->comments)) {
 				$sql = str_replace(' comment_id ', ' comment_ID ', $sql);
+			}
+			
 		}
 		// Fix tables listing
 		elseif( 0 === strpos($sql, 'SHOW TABLES'))
 		{
 			$logto = 'SHOWTABLES';
-			$sql = 'SELECT tablename FROM pg_tables WHERE schemaname = \'public\';';
+			$sql = 'SELECT tablename FROM pg_tables WHERE schemaname = \''.PG4WP_SCHEMA.'\';';
 		}
 		// Rewriting optimize table
 		elseif( 0 === strpos($sql, 'OPTIMIZE TABLE'))
 		{
 			$logto = 'OPTIMIZE';
+			preg_match('/OPTIMIZE TABLE (\w+){1}/', $sql, $matches);
+			$table = $matches[1];
+			if (strstr('.', $table) === FALSE){
+				$sql = str_replace($table, PG4WP_SCHEMA.'.'.$table, $sql);
+			}
 			$sql = str_replace( 'OPTIMIZE TABLE', 'VACUUM', $sql);
 		}
 		// Handle 'SET NAMES ... COLLATE ...'
@@ -451,6 +509,14 @@
 		$sql = str_replace( 'IN (\'\')', 'IN (NULL)', $sql);
 		$sql = str_replace( 'IN ( \'\' )', 'IN (NULL)', $sql);
 		$sql = str_replace( 'IN ()', 'IN (NULL)', $sql);
+
+		// Add schema to JOIN query
+		if (false !== strstr($sql, 'JOIN')){
+			preg_match_all('/JOIN\s(\w+){1}/', $sql, $matches);
+			foreach ($matches[1] as $join_table) {
+				$sql = str_replace($join_table, PG4WP_SCHEMA.'.'.$join_table, $sql);
+			}
+		}
 		
 		// Put back the end of the query if it was separated
 		$sql .= $end;
@@ -458,15 +524,16 @@
 		// For insert ID catching
 		if( $logto == 'INSERT')
 		{
-			$pattern = '/INSERT INTO (\w+)\s+\([ a-zA-Z_"]+/';
-			preg_match($pattern, $sql, $matches);
-			$GLOBALS['pg4wp_ins_table'] = PG4WP_SCHEMA.'.'.$matches[1];
+			$pattern = '/INSERT INTO ([\w\.]+)\s+\([ a-zA-Z_"]+/';
+			//$GLOBALS['pg4wp_ins_table'] = $matches[1];
+
 			$match_list = split(' ', $matches[0]);
 			if( $GLOBALS['pg4wp_ins_table'])
 			{
 				$GLOBALS['pg4wp_ins_field'] = trim($match_list[3],' ()	');
-				if(! $GLOBALS['pg4wp_ins_field'])
+				if(! $GLOBALS['pg4wp_ins_field']) {
 					$GLOBALS['pg4wp_ins_field'] = trim($match_list[4],' ()	');
+				}
 			}
 			$GLOBALS['pg4wp_last_insert'] = $sql;
 		}

@@ -1,0 +1,982 @@
+[1385982186.32] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.45] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.45] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'active_plugins' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'active_plugins' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.45] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'hack_file' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'hack_file' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.45] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.5] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.5] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.5] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.51] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.51] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.51] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.51] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.51] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.53] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'use_smilies' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'use_smilies' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.53] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.53] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.53] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.53] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.53] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.53] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'theme_switched' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'theme_switched' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.62] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.64] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.64] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982186.64] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982192.34] wpsql_insert_id() was called with 'test.cm_terms' and '' and generated an error. The latest INSERT query was :
+'INSERT INTO test.cm_terms (term_id,name,slug,term_group) VALUES ('1','Non classé','non-classe',0)'
+[1385982665.95] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.07] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.07] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.08] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.08] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.08] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'active_plugins' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'active_plugins' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.08] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'hack_file' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'hack_file' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.09] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.09] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.09] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.09] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.09] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.14] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.14] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.14] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.14] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.14] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.14] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.14] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.14] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.16] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'use_smilies' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'use_smilies' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.16] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.16] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.16] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.16] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.16] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.16] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'theme_switched' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'theme_switched' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.26] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.28] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.28] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982666.28] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982671.99] wpsql_insert_id() was called with 'test.cm_terms' and '' and generated an error. The latest INSERT query was :
+'INSERT INTO test.cm_terms (term_id,name,slug,term_group) VALUES ('1','Non classé','non-classe',0)'
+[1385982839.24] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.37] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.37] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.37] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.37] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.38] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'active_plugins' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'active_plugins' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.38] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'hack_file' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'hack_file' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.38] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_charset' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.39] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.39] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.39] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'template' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'template' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.39] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'stylesheet' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'stylesheet' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.44] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'use_smilies' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'use_smilies' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.46] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'theme_switched' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'theme_switched' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.56] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.57] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.57] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982839.57] Error running :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- converted to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+----> ERROR:  relation "test.cm_options" does not exist
+LINE 1: SELECT option_value FROM test.cm_options WHERE option_name =...
+                                 ^
+---------------------
+[1385982843.99] wpsql_insert_id() was called with 'test.cm_terms' and '' and generated an error. The latest INSERT query was :
+'INSERT INTO test.cm_terms (term_id,name,slug,term_group) VALUES ('1','Non classé','non-classe',0)'
+[1385982874.82] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385982874.82] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385982874.88] Error running :
+SELECT tr.term_taxonomy_id FROM cm_term_relationships AS tr INNER JOIN cm_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tr.object_id IN (3) AND tt.taxonomy IN ('category')  
+---- converted to ----
+SELECT tr.term_taxonomy_id FROM test.cm_term_relationships AS tr INNER JOIN cm_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tr.object_id IN (3) AND tt.taxonomy IN ('category')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ... FROM test.cm_term_relationships AS tr INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385982874.89] Error running :
+SELECT tr.term_taxonomy_id FROM cm_term_relationships AS tr INNER JOIN cm_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tr.object_id IN (3) AND tt.taxonomy IN ('category') ORDER BY tr.term_taxonomy_id ASC
+---- converted to ----
+SELECT tr.term_taxonomy_id FROM test.cm_term_relationships AS tr INNER JOIN cm_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tr.object_id IN (3) AND tt.taxonomy IN ('category') ORDER BY tr.term_taxonomy_id ASC
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ... FROM test.cm_term_relationships AS tr INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385982874.89] Error running :
+SELECT tr.term_taxonomy_id FROM cm_term_relationships AS tr INNER JOIN cm_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tr.object_id IN (3) AND tt.taxonomy IN ('post_tag') ORDER BY tr.term_taxonomy_id ASC
+---- converted to ----
+SELECT tr.term_taxonomy_id FROM test.cm_term_relationships AS tr INNER JOIN cm_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tr.object_id IN (3) AND tt.taxonomy IN ('post_tag') ORDER BY tr.term_taxonomy_id ASC
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ... FROM test.cm_term_relationships AS tr INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385982874.89] Error running :
+SELECT tr.term_taxonomy_id FROM cm_term_relationships AS tr INNER JOIN cm_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tr.object_id IN (3) AND tt.taxonomy IN ('post_format') ORDER BY tr.term_taxonomy_id ASC
+---- converted to ----
+SELECT tr.term_taxonomy_id FROM test.cm_term_relationships AS tr INNER JOIN cm_term_taxonomy AS tt ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tr.object_id IN (3) AND tt.taxonomy IN ('post_format') ORDER BY tr.term_taxonomy_id ASC
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ... FROM test.cm_term_relationships AS tr INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385982874.91] Error running :
+SELECT t.*, tt.* FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+---- converted to ----
+SELECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...LECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983121.13] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983121.13] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983121.16] Error running :
+SELECT t.*, tt.* FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+---- converted to ----
+SELECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...LECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983146.49] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983146.49] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983146.51] Error running :
+SELECT t.*, tt.* FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+---- converted to ----
+SELECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...LECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983172.68] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983172.68] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983172.72] Error running :
+SELECT t.*, tt.* FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+---- converted to ----
+SELECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...LECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983191.04] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983191.04] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983191.07] Error running :
+SELECT t.*, tt.* FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+---- converted to ----
+SELECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+----> ERROR:  relation "cm_term_taxonomy" does not exist
+LINE 1: ...LECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN cm_term_ta...
+                                                             ^
+---------------------
+[1385983229.44] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER test.JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')
+----> ERROR:  syntax error at or near "test"
+LINE 1: SELECT COUNT(*) FROM test.cm_terms AS t INNER test.JOIN cm_t...
+                                                      ^
+---------------------
+[1385983229.44] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER test.JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')
+----> ERROR:  syntax error at or near "test"
+LINE 1: SELECT COUNT(*) FROM test.cm_terms AS t INNER test.JOIN cm_t...
+                                                      ^
+---------------------
+[1385983229.47] Error running :
+SELECT t.*, tt.* FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+---- converted to ----
+SELECT t.*, tt.* FROM test.cm_terms AS t INNER test.JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+----> ERROR:  syntax error at or near "test"
+LINE 1: SELECT t.*, tt.* FROM test.cm_terms AS t INNER test.JOIN cm_...
+                                                       ^
+---------------------
+[1385983244.49] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER test.JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')
+----> ERROR:  syntax error at or near "test"
+LINE 1: SELECT COUNT(*) FROM test.cm_terms AS t INNER test.JOIN cm_t...
+                                                      ^
+---------------------
+[1385983244.49] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER test.JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')
+----> ERROR:  syntax error at or near "test"
+LINE 1: SELECT COUNT(*) FROM test.cm_terms AS t INNER test.JOIN cm_t...
+                                                      ^
+---------------------
+[1385983244.52] Error running :
+SELECT t.*, tt.* FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+---- converted to ----
+SELECT t.*, tt.* FROM test.cm_terms AS t INNER test.JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+----> ERROR:  syntax error at or near "test"
+LINE 1: SELECT t.*, tt.* FROM test.cm_terms AS t INNER test.JOIN cm_...
+                                                       ^
+---------------------
+[1385983258.79] Error running :
+SELECT t.*, tt.* FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+---- converted to ----
+SELECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN test.cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+----> ERROR:  relation "cm_term_relationships" does not exist
+LINE 1: ...xonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_re...
+                                                             ^
+---------------------
+[1385983294.19] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN test.Array AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('category')
+----> ERROR:  relation "test.array" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN test.Array...
+                                                             ^
+---------------------
+[1385983294.19] Error running :
+SELECT COUNT(*) FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')   
+---- converted to ----
+SELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN test.Array AS tt ON t.term_id = tt.term_id WHERE tt.taxonomy IN ('post_tag')
+----> ERROR:  relation "test.array" does not exist
+LINE 1: ...ELECT COUNT(*) FROM test.cm_terms AS t INNER JOIN test.Array...
+                                                             ^
+---------------------
+[1385983294.22] Error running :
+SELECT t.*, tt.* FROM cm_terms AS t INNER JOIN cm_term_taxonomy AS tt ON tt.term_id = t.term_id INNER JOIN cm_term_relationships AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+---- converted to ----
+SELECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN test.Array AS tt ON tt.term_id = t.term_id INNER JOIN test.Array AS tr ON tr.term_taxonomy_id = tt.term_taxonomy_id WHERE tt.taxonomy IN ('post_tag') AND tr.object_id IN (3) ORDER BY t.name ASC
+----> ERROR:  relation "test.array" does not exist
+LINE 1: ...LECT t.*, tt.* FROM test.cm_terms AS t INNER JOIN test.Array...
+                                                             ^
+---------------------

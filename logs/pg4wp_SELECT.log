@@ -1,0 +1,2990 @@
+[1385982186.32] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+---------------------
+[1385982186.44] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982186.44] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982186.44] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982186.45] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982186.45] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'active_plugins' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'active_plugins' LIMIT 1
+---------------------
+[1385982186.45] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'hack_file' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'hack_file' LIMIT 1
+---------------------
+[1385982186.45] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---------------------
+[1385982186.46] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---------------------
+[1385982186.46] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982186.46] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'template' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'template' LIMIT 1
+---------------------
+[1385982186.46] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'stylesheet' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'stylesheet' LIMIT 1
+---------------------
+[1385982186.5] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+---------------------
+[1385982186.5] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+---------------------
+[1385982186.5] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+---------------------
+[1385982186.51] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+---------------------
+[1385982186.51] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---------------------
+[1385982186.51] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---------------------
+[1385982186.51] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---------------------
+[1385982186.51] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+---------------------
+[1385982186.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'use_smilies' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'use_smilies' LIMIT 1
+---------------------
+[1385982186.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982186.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982186.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982186.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982186.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982186.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'theme_switched' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'theme_switched' LIMIT 1
+---------------------
+[1385982186.62] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+---------------------
+[1385982186.64] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+---------------------
+[1385982186.64] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+---------------------
+[1385982186.64] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982186.97] Converting :
+SELECT option_name FROM cm_options WHERE option_name in ( 'siteurl', 'blogname', 'blogdescription', 'users_can_register', 'admin_email', 'start_of_week', 'use_balanceTags', 'use_smilies', 'require_name_email', 'comments_notify', 'posts_per_rss', 'rss_use_excerpt', 'mailserver_url', 'mailserver_login', 'mailserver_pass', 'mailserver_port', 'default_category', 'default_comment_status', 'default_ping_status', 'default_pingback_flag', 'posts_per_page', 'date_format', 'time_format', 'links_updated_date_format', 'links_recently_updated_prepend', 'links_recently_updated_append', 'links_recently_updated_time', 'comment_moderation', 'moderation_notify', 'permalink_structure', 'gzipcompression', 'hack_file', 'blog_charset', 'moderation_keys', 'active_plugins', 'home', 'category_base', 'ping_sites', 'advanced_edit', 'comment_max_links', 'gmt_offset', 'default_email_category', 'recently_edited', 'template', 'stylesheet', 'comment_whitelist', 'blacklist_keys', 'comment_registration', 'html_type', 'use_trackback', 'default_role', 'db_version', 'uploads_use_yearmonth_folders', 'upload_path', 'blog_public', 'default_link_category', 'show_on_front', 'tag_base', 'show_avatars', 'avatar_rating', 'upload_url_path', 'thumbnail_size_w', 'thumbnail_size_h', 'thumbnail_crop', 'medium_size_w', 'medium_size_h', 'avatar_default', 'large_size_w', 'large_size_h', 'image_default_link_type', 'image_default_size', 'image_default_align', 'close_comments_for_old_posts', 'close_comments_days_old', 'thread_comments', 'thread_comments_depth', 'page_comments', 'comments_per_page', 'default_comments_page', 'comment_order', 'sticky_posts', 'widget_categories', 'widget_text', 'widget_rss', 'uninstall_plugins', 'timezone_string', 'page_for_posts', 'page_on_front', 'default_post_format', 'link_manager_enabled', 'initial_db_version' )
+---- to ----
+SELECT option_name FROM test.cm_options WHERE option_name in ( 'siteurl', 'blogname', 'blogdescription', 'users_can_register', 'admin_email', 'start_of_week', 'use_balanceTags', 'use_smilies', 'require_name_email', 'comments_notify', 'posts_per_rss', 'rss_use_excerpt', 'mailserver_url', 'mailserver_login', 'mailserver_pass', 'mailserver_port', 'default_category', 'default_comment_status', 'default_ping_status', 'default_pingback_flag', 'posts_per_page', 'date_format', 'time_format', 'links_updated_date_format', 'links_recently_updated_prepend', 'links_recently_updated_append', 'links_recently_updated_time', 'comment_moderation', 'moderation_notify', 'permalink_structure', 'gzipcompression', 'hack_file', 'blog_charset', 'moderation_keys', 'active_plugins', 'home', 'category_base', 'ping_sites', 'advanced_edit', 'comment_max_links', 'gmt_offset', 'default_email_category', 'recently_edited', 'template', 'stylesheet', 'comment_whitelist', 'blacklist_keys', 'comment_registration', 'html_type', 'use_trackback', 'default_role', 'db_version', 'uploads_use_yearmonth_folders', 'upload_path', 'blog_public', 'default_link_category', 'show_on_front', 'tag_base', 'show_avatars', 'avatar_rating', 'upload_url_path', 'thumbnail_size_w', 'thumbnail_size_h', 'thumbnail_crop', 'medium_size_w', 'medium_size_h', 'avatar_default', 'large_size_w', 'large_size_h', 'image_default_link_type', 'image_default_size', 'image_default_align', 'close_comments_for_old_posts', 'close_comments_days_old', 'thread_comments', 'thread_comments_depth', 'page_comments', 'comments_per_page', 'default_comments_page', 'comment_order', 'sticky_posts', 'widget_categories', 'widget_text', 'widget_rss', 'uninstall_plugins', 'timezone_string', 'page_for_posts', 'page_on_front', 'default_post_format', 'link_manager_enabled', 'initial_db_version' )
+---------------------
+[1385982187.02] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home'
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'blodotgsping_url'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'blodotgsping_url'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'bodyterminator'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'bodyterminator'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'emailtestonly'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'emailtestonly'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'phoneemail_separator'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'phoneemail_separator'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'smilies_directory'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'smilies_directory'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'subjectprefix'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'subjectprefix'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_bbcode'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_bbcode'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_blodotgsping'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_blodotgsping'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_phoneemail'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_phoneemail'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_quicktags'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_quicktags'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_weblogsping'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_weblogsping'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'weblogs_cache_file'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'weblogs_cache_file'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_preview'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_preview'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_htmltrans'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_htmltrans'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'smilies_directory'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'smilies_directory'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'fileupload_allowedusers'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'fileupload_allowedusers'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_phoneemail'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_phoneemail'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_post_status'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_post_status'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_post_category'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_post_category'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'archive_mode'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'archive_mode'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'time_difference'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'time_difference'
+---------------------
+[1385982187.02] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_minadminlevel'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_minadminlevel'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_use_adminlevels'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_use_adminlevels'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_type'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_type'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_char'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_char'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_ignore_zero'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_ignore_zero'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_single_image'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_single_image'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image0'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image0'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image1'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image1'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image2'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image2'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image3'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image3'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image4'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image4'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image5'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image5'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image6'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image6'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image7'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image7'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image8'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image8'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image9'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image9'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'weblogs_cacheminutes'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'weblogs_cacheminutes'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'comment_allowed_tags'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'comment_allowed_tags'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'search_engine_friendly_urls'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'search_engine_friendly_urls'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_geourl_lat'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_geourl_lat'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_geourl_lon'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_geourl_lon'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_default_geourl'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_default_geourl'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'weblogs_xml_url'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'weblogs_xml_url'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'new_users_can_blog'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'new_users_can_blog'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = '_wpnonce'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = '_wpnonce'
+---------------------
+[1385982187.03] Converting :
+SELECT autoload FROM cm_options WHERE option_name = '_wp_http_referer'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = '_wp_http_referer'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'Update'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'Update'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'action'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'action'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'rich_editing'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'rich_editing'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'autosave_interval'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'autosave_interval'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'deactivated_plugins'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'deactivated_plugins'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'can_compress_scripts'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'can_compress_scripts'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'page_uris'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'page_uris'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'update_core'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'update_core'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'update_plugins'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'update_plugins'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'update_themes'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'update_themes'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'doing_cron'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'doing_cron'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'random_seed'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'random_seed'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'rss_excerpt_length'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'rss_excerpt_length'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'secret'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'secret'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_linksupdate'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_linksupdate'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_comment_status_page'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_comment_status_page'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'wporg_popular_tags'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'wporg_popular_tags'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'what_to_show'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'what_to_show'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'rss_language'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'rss_language'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'language'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'language'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'enable_xmlrpc'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'enable_xmlrpc'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'enable_app'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'enable_app'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'embed_autourls'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'embed_autourls'
+---------------------
+[1385982187.04] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_post_edit_rows'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_post_edit_rows'
+---------------------
+[1385982187.05] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.05] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.06] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.06] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.07] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.08] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.09] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.1] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.11] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.13] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.15] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.18] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.19] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.21] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.22] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.24] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.25] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.27] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.29] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.31] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.33] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.35] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.37] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.39] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.41] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.43] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.45] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.48] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.5] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.52] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.54] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.57] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.59] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.61] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.64] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.66] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.68] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.7] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.72] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.74] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.76] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.79] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.81] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.83] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.86] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.88] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.91] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.94] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.96] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982187.99] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.02] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.04] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.07] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.1] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.13] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.2] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.23] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.26] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.29] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.33] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.36] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.4] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.43] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.47] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.5] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.54] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.58] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.62] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.66] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.7] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.75] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.79] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.84] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.89] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.93] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982188.98] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.03] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.08] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.13] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.19] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.25] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.3] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.36] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.42] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.47] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.59] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.66] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.72] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.78] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.85] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982189.93] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.07] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.22] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.29] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.37] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.45] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.61] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.69] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.78] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.87] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982190.95] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.04] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.13] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.22] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.32] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.41] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.51] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.6] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.71] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.81] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982191.91] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982192.01] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982192.11] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---------------------
+[1385982192.11] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blogname' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blogname' LIMIT 1
+---------------------
+[1385982192.12] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'admin_email' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'admin_email' LIMIT 1
+---------------------
+[1385982192.13] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_public' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_public' LIMIT 1
+---------------------
+[1385982192.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'default_pingback_flag' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'default_pingback_flag' LIMIT 1
+---------------------
+[1385982192.14] Converting :
+SELECT * FROM cm_users WHERE user_login = 'admin'
+---- to ----
+SELECT * FROM test.cm_users WHERE user_login = 'admin'
+---------------------
+[1385982192.16] Converting :
+SELECT * FROM cm_users WHERE user_login = 'admin'
+---- to ----
+SELECT * FROM test.cm_users WHERE user_login = 'admin'
+---------------------
+[1385982192.16] Converting :
+SELECT * FROM cm_users WHERE user_email = 'guillaume.mercey@cinemur.fr'
+---- to ----
+SELECT * FROM test.cm_users WHERE user_email = 'guillaume.mercey@cinemur.fr'
+---------------------
+[1385982192.16] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM test.cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385982192.19] Converting :
+SELECT * FROM cm_users WHERE ID = '1'
+---- to ----
+SELECT * FROM test.cm_users WHERE "ID" = '1'
+---------------------
+[1385982192.19] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.2] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'initial_db_version' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'initial_db_version' LIMIT 1
+---------------------
+[1385982192.2] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'first_name' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'first_name' AND user_id = 1
+---------------------
+[1385982192.22] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.22] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'last_name' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'last_name' AND user_id = 1
+---------------------
+[1385982192.23] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.23] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'nickname' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'nickname' AND user_id = 1
+---------------------
+[1385982192.24] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.24] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'description' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'description' AND user_id = 1
+---------------------
+[1385982192.24] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.24] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'rich_editing' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'rich_editing' AND user_id = 1
+---------------------
+[1385982192.25] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.25] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'comment_shortcuts' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'comment_shortcuts' AND user_id = 1
+---------------------
+[1385982192.26] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.26] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'admin_color' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'admin_color' AND user_id = 1
+---------------------
+[1385982192.27] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.27] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'use_ssl' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'use_ssl' AND user_id = 1
+---------------------
+[1385982192.28] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.28] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'show_admin_bar_front' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'show_admin_bar_front' AND user_id = 1
+---------------------
+[1385982192.28] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'default_role' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'default_role' LIMIT 1
+---------------------
+[1385982192.28] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.28] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'cm_capabilities' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'cm_capabilities' AND user_id = 1
+---------------------
+[1385982192.29] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.29] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'cm_user_level' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'cm_user_level' AND user_id = 1
+---------------------
+[1385982192.3] Converting :
+SELECT * FROM cm_users WHERE ID = '1'
+---- to ----
+SELECT * FROM test.cm_users WHERE "ID" = '1'
+---------------------
+[1385982192.31] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.31] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'cm_capabilities' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'cm_capabilities' AND user_id = 1
+---------------------
+[1385982192.31] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.31] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'cm_user_level' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'cm_user_level' AND user_id = 1
+---------------------
+[1385982192.37] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982192.43] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.44] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982192.47] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_search' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_search' LIMIT 1
+---------------------
+[1385982192.47] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_search' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_search' LIMIT 1
+---------------------
+[1385982192.48] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_recent-posts' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_recent-posts' LIMIT 1
+---------------------
+[1385982192.48] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_recent-posts' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_recent-posts' LIMIT 1
+---------------------
+[1385982192.48] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_recent-comments' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_recent-comments' LIMIT 1
+---------------------
+[1385982192.48] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_recent-comments' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_recent-comments' LIMIT 1
+---------------------
+[1385982192.49] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_archives' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_archives' LIMIT 1
+---------------------
+[1385982192.49] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_archives' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_archives' LIMIT 1
+---------------------
+[1385982192.5] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_categories' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_categories' LIMIT 1
+---------------------
+[1385982192.5] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_meta' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_meta' LIMIT 1
+---------------------
+[1385982192.51] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_meta' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_meta' LIMIT 1
+---------------------
+[1385982192.51] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'sidebars_widgets' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'sidebars_widgets' LIMIT 1
+---------------------
+[1385982192.51] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'sidebars_widgets' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'sidebars_widgets' LIMIT 1
+---------------------
+[1385982192.52] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.52] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'show_welcome_panel' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'show_welcome_panel' AND user_id = 1
+---------------------
+[1385982192.53] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'rewrite_rules'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'rewrite_rules'
+---------------------
+[1385982192.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'rewrite_rules' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'rewrite_rules' LIMIT 1
+---------------------
+[1385982192.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'rewrite_rules' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'rewrite_rules' LIMIT 1
+---------------------
+[1385982192.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982192.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982192.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.53] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982192.54] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---------------------
+[1385982192.57] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.57] Converting :
+SELECT option_name, option_value FROM cm_options WHERE autoload = 'yes'
+---- to ----
+SELECT option_name, option_value FROM test.cm_options WHERE autoload = 'yes'
+---------------------
+[1385982192.57] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.57] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.57] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.57] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.57] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.57] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982192.58] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982665.95] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+---------------------
+[1385982666.07] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982666.07] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982666.07] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982666.08] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982666.08] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'active_plugins' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'active_plugins' LIMIT 1
+---------------------
+[1385982666.08] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'hack_file' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'hack_file' LIMIT 1
+---------------------
+[1385982666.08] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---------------------
+[1385982666.09] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---------------------
+[1385982666.09] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.09] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'template' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'template' LIMIT 1
+---------------------
+[1385982666.09] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'stylesheet' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'stylesheet' LIMIT 1
+---------------------
+[1385982666.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+---------------------
+[1385982666.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'category_base' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'category_base' LIMIT 1
+---------------------
+[1385982666.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+---------------------
+[1385982666.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'tag_base' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'tag_base' LIMIT 1
+---------------------
+[1385982666.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---------------------
+[1385982666.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---------------------
+[1385982666.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'permalink_structure' LIMIT 1
+---------------------
+[1385982666.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+---------------------
+[1385982666.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'use_smilies' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'use_smilies' LIMIT 1
+---------------------
+[1385982666.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982666.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982666.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982666.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982666.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cron' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cron' LIMIT 1
+---------------------
+[1385982666.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'theme_switched' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'theme_switched' LIMIT 1
+---------------------
+[1385982666.26] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl'
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl'
+---------------------
+[1385982666.28] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+---------------------
+[1385982666.28] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'html_type' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'html_type' LIMIT 1
+---------------------
+[1385982666.28] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982666.61] Converting :
+SELECT option_name FROM cm_options WHERE option_name in ( 'siteurl', 'blogname', 'blogdescription', 'users_can_register', 'admin_email', 'start_of_week', 'use_balanceTags', 'use_smilies', 'require_name_email', 'comments_notify', 'posts_per_rss', 'rss_use_excerpt', 'mailserver_url', 'mailserver_login', 'mailserver_pass', 'mailserver_port', 'default_category', 'default_comment_status', 'default_ping_status', 'default_pingback_flag', 'posts_per_page', 'date_format', 'time_format', 'links_updated_date_format', 'links_recently_updated_prepend', 'links_recently_updated_append', 'links_recently_updated_time', 'comment_moderation', 'moderation_notify', 'permalink_structure', 'gzipcompression', 'hack_file', 'blog_charset', 'moderation_keys', 'active_plugins', 'home', 'category_base', 'ping_sites', 'advanced_edit', 'comment_max_links', 'gmt_offset', 'default_email_category', 'recently_edited', 'template', 'stylesheet', 'comment_whitelist', 'blacklist_keys', 'comment_registration', 'html_type', 'use_trackback', 'default_role', 'db_version', 'uploads_use_yearmonth_folders', 'upload_path', 'blog_public', 'default_link_category', 'show_on_front', 'tag_base', 'show_avatars', 'avatar_rating', 'upload_url_path', 'thumbnail_size_w', 'thumbnail_size_h', 'thumbnail_crop', 'medium_size_w', 'medium_size_h', 'avatar_default', 'large_size_w', 'large_size_h', 'image_default_link_type', 'image_default_size', 'image_default_align', 'close_comments_for_old_posts', 'close_comments_days_old', 'thread_comments', 'thread_comments_depth', 'page_comments', 'comments_per_page', 'default_comments_page', 'comment_order', 'sticky_posts', 'widget_categories', 'widget_text', 'widget_rss', 'uninstall_plugins', 'timezone_string', 'page_for_posts', 'page_on_front', 'default_post_format', 'link_manager_enabled', 'initial_db_version' )
+---- to ----
+SELECT option_name FROM test.cm_options WHERE option_name in ( 'siteurl', 'blogname', 'blogdescription', 'users_can_register', 'admin_email', 'start_of_week', 'use_balanceTags', 'use_smilies', 'require_name_email', 'comments_notify', 'posts_per_rss', 'rss_use_excerpt', 'mailserver_url', 'mailserver_login', 'mailserver_pass', 'mailserver_port', 'default_category', 'default_comment_status', 'default_ping_status', 'default_pingback_flag', 'posts_per_page', 'date_format', 'time_format', 'links_updated_date_format', 'links_recently_updated_prepend', 'links_recently_updated_append', 'links_recently_updated_time', 'comment_moderation', 'moderation_notify', 'permalink_structure', 'gzipcompression', 'hack_file', 'blog_charset', 'moderation_keys', 'active_plugins', 'home', 'category_base', 'ping_sites', 'advanced_edit', 'comment_max_links', 'gmt_offset', 'default_email_category', 'recently_edited', 'template', 'stylesheet', 'comment_whitelist', 'blacklist_keys', 'comment_registration', 'html_type', 'use_trackback', 'default_role', 'db_version', 'uploads_use_yearmonth_folders', 'upload_path', 'blog_public', 'default_link_category', 'show_on_front', 'tag_base', 'show_avatars', 'avatar_rating', 'upload_url_path', 'thumbnail_size_w', 'thumbnail_size_h', 'thumbnail_crop', 'medium_size_w', 'medium_size_h', 'avatar_default', 'large_size_w', 'large_size_h', 'image_default_link_type', 'image_default_size', 'image_default_align', 'close_comments_for_old_posts', 'close_comments_days_old', 'thread_comments', 'thread_comments_depth', 'page_comments', 'comments_per_page', 'default_comments_page', 'comment_order', 'sticky_posts', 'widget_categories', 'widget_text', 'widget_rss', 'uninstall_plugins', 'timezone_string', 'page_for_posts', 'page_on_front', 'default_post_format', 'link_manager_enabled', 'initial_db_version' )
+---------------------
+[1385982666.65] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home'
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'blodotgsping_url'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'blodotgsping_url'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'bodyterminator'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'bodyterminator'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'emailtestonly'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'emailtestonly'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'phoneemail_separator'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'phoneemail_separator'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'smilies_directory'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'smilies_directory'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'subjectprefix'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'subjectprefix'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_bbcode'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_bbcode'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_blodotgsping'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_blodotgsping'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_phoneemail'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_phoneemail'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_quicktags'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_quicktags'
+---------------------
+[1385982666.65] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_weblogsping'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_weblogsping'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'weblogs_cache_file'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'weblogs_cache_file'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_preview'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_preview'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_htmltrans'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_htmltrans'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'smilies_directory'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'smilies_directory'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'fileupload_allowedusers'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'fileupload_allowedusers'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_phoneemail'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_phoneemail'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_post_status'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_post_status'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_post_category'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_post_category'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'archive_mode'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'archive_mode'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'time_difference'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'time_difference'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_minadminlevel'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_minadminlevel'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_use_adminlevels'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_use_adminlevels'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_type'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_type'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_char'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_char'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_ignore_zero'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_ignore_zero'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_single_image'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_single_image'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image0'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image0'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image1'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image1'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image2'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image2'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image3'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image3'
+---------------------
+[1385982666.66] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image4'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image4'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image5'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image5'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image6'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image6'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image7'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image7'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image8'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image8'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'links_rating_image9'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'links_rating_image9'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'weblogs_cacheminutes'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'weblogs_cacheminutes'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'comment_allowed_tags'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'comment_allowed_tags'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'search_engine_friendly_urls'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'search_engine_friendly_urls'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_geourl_lat'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_geourl_lat'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_geourl_lon'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_geourl_lon'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_default_geourl'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_default_geourl'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'weblogs_xml_url'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'weblogs_xml_url'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'new_users_can_blog'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'new_users_can_blog'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = '_wpnonce'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = '_wpnonce'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = '_wp_http_referer'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = '_wp_http_referer'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'Update'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'Update'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'action'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'action'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'rich_editing'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'rich_editing'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'autosave_interval'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'autosave_interval'
+---------------------
+[1385982666.67] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'deactivated_plugins'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'deactivated_plugins'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'can_compress_scripts'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'can_compress_scripts'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'page_uris'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'page_uris'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'update_core'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'update_core'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'update_plugins'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'update_plugins'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'update_themes'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'update_themes'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'doing_cron'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'doing_cron'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'random_seed'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'random_seed'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'rss_excerpt_length'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'rss_excerpt_length'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'secret'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'secret'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'use_linksupdate'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'use_linksupdate'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_comment_status_page'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_comment_status_page'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'wporg_popular_tags'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'wporg_popular_tags'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'what_to_show'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'what_to_show'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'rss_language'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'rss_language'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'language'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'language'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'enable_xmlrpc'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'enable_xmlrpc'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'enable_app'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'enable_app'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'embed_autourls'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'embed_autourls'
+---------------------
+[1385982666.68] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'default_post_edit_rows'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'default_post_edit_rows'
+---------------------
+[1385982666.69] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.69] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.7] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.7] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.71] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.72] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.73] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.74] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.75] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.77] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.78] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.79] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.8] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.82] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.83] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.85] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.86] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.87] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.89] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.91] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.93] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.95] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.97] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982666.99] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.01] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.03] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.05] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.07] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.09] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.11] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.13] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.18] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.2] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.23] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.25] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.28] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.3] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.32] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.34] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.36] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.38] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.41] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.43] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.45] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.48] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.5] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.53] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.55] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.58] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.61] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.64] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.66] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.69] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.72] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.75] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.78] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.81] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.84] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.88] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.91] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.94] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982667.98] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.01] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.05] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.08] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.12] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.15] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.19] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.23] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.27] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.31] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.35] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.4] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.44] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.49] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.54] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.58] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.63] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.68] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.73] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.78] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.83] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.89] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982668.95] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.06] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.12] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.18] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.24] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.31] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.37] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.44] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.5] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.58] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.65] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.72] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.79] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.87] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982669.94] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.02] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.1] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.18] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.26] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.34] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.43] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.52] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.6] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.69] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.79] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.88] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982670.97] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982671.06] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982671.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982671.25] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982671.36] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982671.46] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982671.56] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982671.66] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'cm_user_roles' LIMIT 1
+---------------------
+[1385982671.77] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---------------------
+[1385982671.77] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blogname' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blogname' LIMIT 1
+---------------------
+[1385982671.77] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'admin_email' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'admin_email' LIMIT 1
+---------------------
+[1385982671.78] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_public' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_public' LIMIT 1
+---------------------
+[1385982671.79] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982671.79] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'default_pingback_flag' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'default_pingback_flag' LIMIT 1
+---------------------
+[1385982671.8] Converting :
+SELECT * FROM cm_users WHERE user_login = 'admin'
+---- to ----
+SELECT * FROM test.cm_users WHERE user_login = 'admin'
+---------------------
+[1385982671.82] Converting :
+SELECT * FROM cm_users WHERE user_login = 'admin'
+---- to ----
+SELECT * FROM test.cm_users WHERE user_login = 'admin'
+---------------------
+[1385982671.82] Converting :
+SELECT * FROM cm_users WHERE user_email = 'guillaume.mercey@cinemur.fr'
+---- to ----
+SELECT * FROM test.cm_users WHERE user_email = 'guillaume.mercey@cinemur.fr'
+---------------------
+[1385982671.82] Converting :
+SELECT ID FROM cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---- to ----
+SELECT "ID" FROM test.cm_users WHERE user_nicename = 'admin' AND user_login != 'admin' LIMIT 1
+---------------------
+[1385982671.84] Converting :
+SELECT * FROM cm_users WHERE ID = '1'
+---- to ----
+SELECT * FROM test.cm_users WHERE "ID" = '1'
+---------------------
+[1385982671.84] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.84] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'initial_db_version' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'initial_db_version' LIMIT 1
+---------------------
+[1385982671.84] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'first_name' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'first_name' AND user_id = 1
+---------------------
+[1385982671.87] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.87] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'last_name' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'last_name' AND user_id = 1
+---------------------
+[1385982671.88] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.88] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'nickname' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'nickname' AND user_id = 1
+---------------------
+[1385982671.88] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.89] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'description' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'description' AND user_id = 1
+---------------------
+[1385982671.89] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.89] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'rich_editing' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'rich_editing' AND user_id = 1
+---------------------
+[1385982671.9] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.9] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'comment_shortcuts' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'comment_shortcuts' AND user_id = 1
+---------------------
+[1385982671.91] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.91] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'admin_color' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'admin_color' AND user_id = 1
+---------------------
+[1385982671.92] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.92] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'use_ssl' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'use_ssl' AND user_id = 1
+---------------------
+[1385982671.92] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.92] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'show_admin_bar_front' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'show_admin_bar_front' AND user_id = 1
+---------------------
+[1385982671.93] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'default_role' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'default_role' LIMIT 1
+---------------------
+[1385982671.93] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.93] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'cm_capabilities' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'cm_capabilities' AND user_id = 1
+---------------------
+[1385982671.94] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.94] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'cm_user_level' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'cm_user_level' AND user_id = 1
+---------------------
+[1385982671.95] Converting :
+SELECT * FROM cm_users WHERE ID = '1'
+---- to ----
+SELECT * FROM test.cm_users WHERE "ID" = '1'
+---------------------
+[1385982671.95] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.96] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'cm_capabilities' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'cm_capabilities' AND user_id = 1
+---------------------
+[1385982671.96] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982671.96] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'cm_user_level' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'cm_user_level' AND user_id = 1
+---------------------
+[1385982672.02] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982672.08] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.08] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982672.12] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_search' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_search' LIMIT 1
+---------------------
+[1385982672.12] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_search' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_search' LIMIT 1
+---------------------
+[1385982672.12] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_recent-posts' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_recent-posts' LIMIT 1
+---------------------
+[1385982672.13] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_recent-posts' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_recent-posts' LIMIT 1
+---------------------
+[1385982672.13] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_recent-comments' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_recent-comments' LIMIT 1
+---------------------
+[1385982672.13] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_recent-comments' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_recent-comments' LIMIT 1
+---------------------
+[1385982672.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_archives' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_archives' LIMIT 1
+---------------------
+[1385982672.14] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_archives' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_archives' LIMIT 1
+---------------------
+[1385982672.15] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_categories' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_categories' LIMIT 1
+---------------------
+[1385982672.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_meta' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_meta' LIMIT 1
+---------------------
+[1385982672.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'widget_meta' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'widget_meta' LIMIT 1
+---------------------
+[1385982672.16] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'sidebars_widgets' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'sidebars_widgets' LIMIT 1
+---------------------
+[1385982672.17] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'sidebars_widgets' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'sidebars_widgets' LIMIT 1
+---------------------
+[1385982672.17] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982672.18] Converting :
+SELECT umeta_id FROM cm_usermeta WHERE meta_key = 'show_welcome_panel' AND user_id = 1
+---- to ----
+SELECT umeta_id FROM test.cm_usermeta WHERE meta_key = 'show_welcome_panel' AND user_id = 1
+---------------------
+[1385982672.18] Converting :
+SELECT autoload FROM cm_options WHERE option_name = 'rewrite_rules'
+---- to ----
+SELECT autoload FROM test.cm_options WHERE option_name = 'rewrite_rules'
+---------------------
+[1385982672.18] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'rewrite_rules' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'rewrite_rules' LIMIT 1
+---------------------
+[1385982672.18] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'rewrite_rules' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'rewrite_rules' LIMIT 1
+---------------------
+[1385982672.18] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982672.18] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.19] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'home' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'home' LIMIT 1
+---------------------
+[1385982672.19] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.19] Converting :
+SELECT user_id, meta_key, meta_value FROM cm_usermeta WHERE user_id IN (1)
+---- to ----
+SELECT user_id, meta_key, meta_value FROM test.cm_usermeta WHERE user_id IN (1)
+---------------------
+[1385982672.2] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'blog_charset' LIMIT 1
+---------------------
+[1385982672.22] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.22] Converting :
+SELECT option_name, option_value FROM cm_options WHERE autoload = 'yes'
+---- to ----
+SELECT option_name, option_value FROM test.cm_options WHERE autoload = 'yes'
+---------------------
+[1385982672.22] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.22] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.22] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.23] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.23] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.23] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
+[1385982672.23] Converting :
+SELECT option_value FROM cm_options WHERE option_name = 'siteurl' LIMIT 1
+---- to ----
+SELECT option_value FROM test.cm_options WHERE option_name = 'siteurl' LIMIT 1
+---------------------
